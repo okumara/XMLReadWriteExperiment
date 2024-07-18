@@ -11,7 +11,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
 public class XMLWriterExample {
-    public static void xmlWriterExample(String[] args) throws Exception {
+    public static void xmlWriterExample() throws Exception {
         // Create a DocumentBuilder
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
