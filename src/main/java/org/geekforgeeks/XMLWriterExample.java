@@ -58,7 +58,9 @@ public class XMLWriterExample {
         library.appendChild(book7);
         library.appendChild(book8);
 
-
+        book8 = document.createElement("Program");
+        book8.appendChild(document.createTextNode("Neurlinguistic Programming"));
+        root.appendChild(book8);
 
         // Write to XML file
         TransformerFactory transformerFactory = TransformerFactory.newInstance();

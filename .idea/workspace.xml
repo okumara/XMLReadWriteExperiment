@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e007b56a-e45e-4203-8a29-5aa9866a008a" name="Changes" comment="Adjustments to make xmlReaderExample runnable.">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/geekforgeeks/XMLReaderExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geekforgeeks/XMLReaderExample.java" afterDir="false" />
+    <list default="true" id="e007b56a-e45e-4203-8a29-5aa9866a008a" name="Changes" comment="Added second feature: All programs have same key (&quot;Program&quot;) and the XML readers selects all Program nodes. Note that although inside multiple library nodes, all Program nodes get selected">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/geekforgeeks/XMLWriterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geekforgeeks/XMLWriterExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,7 @@
     "Maven.XMLReadWriteExperiment [validate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "SecondFeature",
+    "git-widget-placeholder": "Third-Feature",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/oeta/IdeaProjects/XMLReadWriteExperiment",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
@@ -176,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721305457921</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added second feature: All programs have same key (&quot;Program&quot;) and the XML readers selects all Program nodes. Note that although inside multiple library nodes, all Program nodes get selected">
+      <option name="closed" value="true" />
+      <created>1721306006970</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721306006970</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,6 +219,7 @@
     <MESSAGE value="Adjustments to make xmlWriterExample runnable." />
     <MESSAGE value="Adjustments to make xmlReaderExample runnable." />
     <MESSAGE value="Experiment adding a second library. Key is to note that an XML can only have one root element, so to add a second library node, both library nodes have to be added to a new root element" />
-    <option name="LAST_COMMIT_MESSAGE" value="Experiment adding a second library. Key is to note that an XML can only have one root element, so to add a second library node, both library nodes have to be added to a new root element" />
+    <MESSAGE value="Added second feature: All programs have same key (&quot;Program&quot;) and the XML readers selects all Program nodes. Note that although inside multiple library nodes, all Program nodes get selected" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added second feature: All programs have same key (&quot;Program&quot;) and the XML readers selects all Program nodes. Note that although inside multiple library nodes, all Program nodes get selected" />
   </component>
 </project>
