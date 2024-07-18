@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e007b56a-e45e-4203-8a29-5aa9866a008a" name="Changes" comment="Adjustments to make xmlReaderExample runnable." />
+    <list default="true" id="e007b56a-e45e-4203-8a29-5aa9866a008a" name="Changes" comment="Adjustments to make xmlReaderExample runnable.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/geekforgeeks/XMLWriterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geekforgeeks/XMLWriterExample.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,9 +55,12 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Main.executor": "Run",
+    "Maven.XMLReadWriteExperiment [clean].executor": "Run",
+    "Maven.XMLReadWriteExperiment [compile].executor": "Run",
+    "Maven.XMLReadWriteExperiment [validate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Importing-geek-for-geek-sources",
+    "git-widget-placeholder": "second-library-node",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/oeta/IdeaProjects/XMLReadWriteExperiment",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
