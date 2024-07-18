@@ -59,7 +59,7 @@ public class XMLWriterExample {
         library.appendChild(book8);
 
         book8 = document.createElement("Program");
-        book8.appendChild(document.createTextNode("Neurlinguistic Programming"));
+        book8.appendChild(document.createTextNode("Neurolinguistic Programming"));
         root.appendChild(book8);
 
         // Write to XML file
