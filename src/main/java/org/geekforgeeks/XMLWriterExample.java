@@ -11,7 +11,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
 public class XMLWriterExample {
-    public static void xmlWriterExample(String[] args) throws Exception {
+    public static void xmlWriterExample() throws Exception {
         // Create a DocumentBuilder
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
@@ -43,7 +43,7 @@ public class XMLWriterExample {
         DOMSource source = new DOMSource(document);
 
         // Specify your local file path
-        StreamResult result = new StreamResult("C:/Users/Mahesh/Desktop/DSAˍPratice/output.xml");
+        StreamResult result = new StreamResult("./output/output.xml");
         transformer.transform(source, result);
 
         System.out.println("XML file created successfully!");
