@@ -10,9 +10,9 @@ import org.w3c.dom.Node;
 import java.io.File;
 
 public class XMLReaderExample {
-    public static void xmlReaderExample(String[] args) throws Exception {
+    public static void xmlReaderExample() throws Exception {
         // Specify the file path as a File object
-        File xmlFile = new File("C:/Users/Mahesh/Desktop/DSAˍPratice/output.xml");
+        File xmlFile = new File("./output/output.xml");
 
         // Create a DocumentBuilder
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -25,7 +25,7 @@ public class XMLReaderExample {
         NodeList nodeList = document.getElementsByTagName("library");
         for (int i = 0; i < nodeList.getLength(); i++) {
             Node node = nodeList.item(i);
-            System.out.println("Element Content: " + node.getTextContent());
+            System.out.println("Element " + i + " Content: " + node.getTextContent());
         }
     }
 }

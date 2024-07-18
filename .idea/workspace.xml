@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e007b56a-e45e-4203-8a29-5aa9866a008a" name="Changes" comment="Adjustments to make xmlWriterExample runnable." />
+    <list default="true" id="e007b56a-e45e-4203-8a29-5aa9866a008a" name="Changes" comment="Adjustments to make xmlReaderExample runnable.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/geekforgeeks/XMLWriterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geekforgeeks/XMLWriterExample.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,18 +43,24 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2jPhQ9KraY5bdpYMDs13YcCRypC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Main.executor": "Run",
+    "Maven.XMLReadWriteExperiment [clean].executor": "Run",
+    "Maven.XMLReadWriteExperiment [compile].executor": "Run",
+    "Maven.XMLReadWriteExperiment [validate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Importing-geek-for-geek-sources",
+    "git-widget-placeholder": "second-library-node",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/oeta/IdeaProjects/XMLReadWriteExperiment",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
@@ -133,7 +143,31 @@
       <option name="project" value="LOCAL" />
       <updated>1721298224940</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adjustments to make xmlWriterExample runnable.">
+      <option name="closed" value="true" />
+      <created>1721298660586</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721298660586</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adjustments to make xmlWriterExample runnable.">
+      <option name="closed" value="true" />
+      <created>1721298668336</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721298668336</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adjustments to make xmlReaderExample runnable.">
+      <option name="closed" value="true" />
+      <created>1721299003581</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721299003581</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,12 +194,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Empty maven project" />
     <MESSAGE value="Copied sources from geek for geeks and adapted for internal use" />
     <MESSAGE value="Adjustments to make xmlWriterExample runnable." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjustments to make xmlWriterExample runnable." />
+    <MESSAGE value="Adjustments to make xmlReaderExample runnable." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjustments to make xmlReaderExample runnable." />
   </component>
 </project>
