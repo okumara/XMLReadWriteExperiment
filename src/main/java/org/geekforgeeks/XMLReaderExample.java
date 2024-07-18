@@ -22,7 +22,7 @@ public class XMLReaderExample {
         Document document = builder.parse(xmlFile);
 
         // Access elements by tag name
-        NodeList nodeList = document.getElementsByTagName("library");
+        NodeList nodeList = document.getElementsByTagName("Program");
         for (int i = 0; i < nodeList.getLength(); i++) {
             Node node = nodeList.item(i);
             System.out.println("Element " + i + " Content: " + node.getTextContent());

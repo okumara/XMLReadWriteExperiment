@@ -27,13 +27,13 @@ public class XMLWriterExample {
         root.appendChild(library);
 
         // Create book elements and add text content
-        Element book1 = document.createElement("Program1");
+        Element book1 = document.createElement("Program");
         book1.appendChild(document.createTextNode("Java Programming"));
-        Element book2 = document.createElement("Program2");
+        Element book2 = document.createElement("Program");
         book2.appendChild(document.createTextNode("Python Programming"));
-        Element book3 = document.createElement("Program3");
+        Element book3 = document.createElement("Program");
         book3.appendChild(document.createTextNode("JavaScript"));
-        Element book4 = document.createElement("Program4");
+        Element book4 = document.createElement("Program");
         book4.appendChild(document.createTextNode("C Programming"));
         library.appendChild(book1);
         library.appendChild(book2);
@@ -45,13 +45,13 @@ public class XMLWriterExample {
         root.appendChild(library);
 
         // Create book elements and add text content
-        Element book5 = document.createElement("Program1");
+        Element book5 = document.createElement("Program");
         book5.appendChild(document.createTextNode("Basic Programming"));
-        Element book6 = document.createElement("Program2");
+        Element book6 = document.createElement("Program");
         book6.appendChild(document.createTextNode("Pascal Programming"));
-        Element book7 = document.createElement("Program3");
+        Element book7 = document.createElement("Program");
         book7.appendChild(document.createTextNode("6502 Assemble Programming"));
-        Element book8 = document.createElement("Program4");
+        Element book8 = document.createElement("Program");
         book8.appendChild(document.createTextNode("Groovy Programming"));
         library.appendChild(book5);
         library.appendChild(book6);
